@@ -1,0 +1,136 @@
+content{
+    display: block;
+    background-color: var(--color-background);
+    min-height: 700px;
+    margin: 80px 0 0px;
+}
+
+.section3{
+    display: block;
+    background: var(--color-background);
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.section3 ul a{
+    display: inline-block;
+    padding: 6px 20px;
+    color: #d5e9ff;
+    border-radius: 40px;
+    font-weight: 500;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.section3 ul li{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section3 .contentbox .text h2{
+        padding: 10px 0;
+}
+ul li a:hover{
+    background-color: #668aac;
+    color: #abbfd4;
+}
+.contentbox .text{
+    line-height: 1.75;
+    width: 70%;
+    flex: 0 0 70%;
+    position: relative;
+    padding-left: 30px;
+}
+.text h5{
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #072434;
+    padding: 10px 0 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.text p{
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #041822;
+    padding: 10px 0 ;
+    font-size: 16px;
+}
+.contentbox .text h2{
+    font-family: 'Noto Sans Thai', sans-serif;
+    padding: 40px 0 0;
+    font-size: 200%;
+}
+
+@media (max-width:790px){    
+    content{
+        margin: 100px 0 0 ;
+    }
+    .contentbox .text{
+        line-height: 1.75;
+        width: 100%;
+        flex: 0 0 100%;
+        position: relative;
+    }
+    .contentbox .text h2{
+        padding: 20px 0 0;
+        font-size: 300%;
+    }
+    .contentbox .picside{
+        margin: 30px 0;
+        position: relative;
+        text-align: center;
+    }
+    .section1{
+        padding: 30px 50px;
+    }
+    .section1 h2{
+        font-size: 400%;
+    }
+}
+
+.WORK{
+    padding: 0! important;
+    background: var(--color-blue);
+    min-height: 100px;
+    height: 300px;
+}
+.WORK h1{
+    color: var(--color-light);
+    text-align: center;
+    padding: 100px;
+    font-size: 400%;
+}
+
+@media (max-width:790px){
+    .WORK{
+        min-height: 100px;
+        height: 300px;
+    }
+    .WORK h1{
+        color: var(--color-light);
+        text-align: center;
+        padding: 100px;
+        font-size: 500%;
+    }
+}
+
+@media(max-width:400px){
+    .WORK h1{
+        padding: 100px 20px;
+        font-size: 400%;
+    }
+    .section3{
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width:370px){
+    .section3 h5{
+        font-size: 16px;
+    }
+    .text h5{
+        font-size: 16px;
+    }
+    .contentbox .text h2{
+        font-size: 250%;
+    }
+}
